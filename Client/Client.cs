@@ -9,7 +9,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 
-public class SocketClient : MonoBehaviour {
+public class Client : MonoBehaviour {
 
     private string _IPAddress = "192.168.1.104";
     private int _port = 7788;
